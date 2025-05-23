@@ -23,6 +23,113 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 # PROGRAM :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dribbble Clone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to Dribbble Clone</h1>
+            <p class="lead">Showcase your creative projects and find inspiration</p>
+            <a href="#gallery" class="btn btn-light btn-lg">Explore Gallery</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Features</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Discover</h5>
+                            <p class="card-text">Explore stunning designs and ideas from creatives worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Share</h5>
+                            <p class="card-text">Upload your projects to get feedback and recognition.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Collaborate</h5>
+                            <p class="card-text">Connect with other designers to work on amazing projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container gallery">
+            <h2 class="text-center mb-4">Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <img src="IRONMAN.PNG" alt="Uiand ux Design 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="MARVEL.PNG" alt="calligraphy Design 2" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="SPIDY.PNG" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Designed and developed by SAI PRASATH.P(212224230238). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
 # OUTPUT:
+
+![444062569-0f9b3fec-6527-4297-a87f-69ae9b29dd88](https://github.com/user-attachments/assets/c9875aa3-0098-42d2-9696-a6f5352deee4)
+
+
 # RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
